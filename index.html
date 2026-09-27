@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CA Saptak Roy — Audit · Forensics · Controls · AI</title>
+<meta name="description" content="CA Saptak Roy — Audit & Assurance, Forensic Investigation, Internal Audit and AI-enabled financial workflows.">
+<meta property="og:title" content="CA Saptak Roy — Professional Portfolio">
+<meta property="og:description" content="Audit · Forensics · Controls · AI">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#10201d">
+<style>
+:root{--bg:#f3f5f2;--paper:#fff;--ink:#14201d;--muted:#68736e;--line:#d9e0dc;--accent:#0b5b50;--soft:#dcebe7;--dark:#10201d;--gold:#b18a43;--max:1180px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}a{color:inherit}.wrap{max-width:var(--max);margin:auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:30;background:rgba(243,245,242,.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.navin{height:68px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;letter-spacing:-.035em}.links{display:flex;gap:17px;font-size:13px;color:var(--muted)}.links a{text-decoration:none}.links a:hover{color:var(--accent)}
+.mobile-resume{display:none}
+.hero{padding:76px 0 38px}.hero-grid{display:grid;grid-template-columns:1.45fr .75fr;gap:24px;align-items:stretch}.eyebrow,.label{font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:var(--accent);font-weight:900}.hero h1{font-size:clamp(52px,8vw,96px);line-height:.9;letter-spacing:-.07em;margin:13px 0 20px}.lead{font-size:20px;max-width:790px;color:var(--muted)}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-block;border:1px solid var(--line);background:var(--paper);padding:11px 16px;border-radius:999px;text-decoration:none;font-weight:850;font-size:13px}.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.profile{background:var(--dark);color:#fff;border-radius:24px;padding:26px;display:flex;flex-direction:column;justify-content:space-between}.profile .mini{color:#b8cbc6;text-transform:uppercase;letter-spacing:.12em;font-size:10px}.profile h2{font-size:30px;line-height:1.05;letter-spacing:-.045em;margin:9px 0 12px}.profile p{color:#c8d5d1;font-size:14px;margin:0}.profileline{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}.pill{border:1px solid rgba(255,255,255,.18);padding:7px 9px;border-radius:999px;font-size:11px;color:#d8e4e1}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:18px 0 62px}.kpi{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:16px}.kpi b{display:block;font-size:25px;letter-spacing:-.045em}.kpi span{font-size:11px;color:var(--muted)}
+section{padding:59px 0;border-top:1px solid var(--line)}.head{display:flex;justify-content:space-between;gap:28px;align-items:end;margin-bottom:24px}.head h2{font-size:36px;letter-spacing:-.055em;margin:0}.head p{max-width:610px;color:var(--muted);margin:0}
+.dna{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.dna-card{min-height:210px;background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:22px;position:relative;overflow:hidden}.dna-card:after{content:"";position:absolute;width:90px;height:90px;border-radius:50%;right:-35px;bottom:-35px;background:var(--soft)}.dna-no{font-size:12px;color:var(--gold);font-weight:900}.dna-card h3{font-size:24px;letter-spacing:-.045em;margin:48px 0 7px}.dna-card p{font-size:13px;color:var(--muted);max-width:230px}
+.timeline{display:grid;gap:12px}.role{display:grid;grid-template-columns:165px 1fr;gap:22px;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:21px}.date{font-size:12px;color:var(--muted)}.role h3{margin:0;font-size:21px}.sub{font-size:13px;font-weight:850;color:var(--accent);margin:2px 0 10px}.role ul{margin:0;padding-left:18px;color:#404b47}.role li{margin:5px 0}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:21px}.card h3{font-size:19px;margin:5px 0 8px}.card p{margin:0;color:var(--muted)}.big{font-size:41px;font-weight:950;letter-spacing:-.06em}.case{display:grid;grid-template-columns:55px 1fr;gap:12px}.case-no{font-size:30px;font-weight:950;color:var(--accent)}
+details{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:19px;margin-bottom:10px}summary{cursor:pointer;font-weight:900;font-size:17px}details p{color:var(--muted)}
+.filters{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:15px}.filters button{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:8px 12px;cursor:pointer}.filters button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.tags{display:flex;flex-wrap:wrap;gap:7px}.tag{padding:8px 10px;border-radius:999px;background:var(--soft);font-size:12px}
+.cta{background:var(--dark);color:#fff;border-radius:25px;padding:34px}.cta p{color:#c8d4d0;max-width:700px}.cta .btn{background:#fff;border-color:#fff}
+footer{padding:28px 0 90px;color:var(--muted);font-size:12px}.fine{font-size:11px;margin-top:8px}
+#toTop{position:fixed;right:17px;bottom:17px;display:none;width:42px;height:42px;border:1px solid var(--line);border-radius:50%;background:#fff;cursor:pointer;font-weight:900;box-shadow:0 5px 20px rgba(0,0,0,.08)}
+@media(max-width:950px){.hero-grid{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(3,1fr)}.dna{grid-template-columns:1fr 1fr}.links{display:none}.mobile-resume{display:inline-block}.navin{height:62px}}
+@media(max-width:620px){.wrap{padding:0 18px}.hero{padding-top:54px}.hero h1{font-size:55px}.lead{font-size:17px}.kpis,.dna,.grid3{grid-template-columns:1fr}.role{grid-template-columns:1fr;gap:4px}.head{display:block}.head p{margin-top:8px}.mobile-resume{font-size:11px;padding:8px 11px}.profile{min-height:280px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap navin"><div class="brand">CA Saptak Roy</div><div class="links"><a href="#dna">Professional DNA</a><a href="#experience">Experience</a><a href="#impact">Impact</a><a href="#expertise">Expertise</a><a href="#recognition">Recognition</a><a href="#contact">Contact</a></div><a class="btn mobile-resume" href="CA-Saptak-Roy-Resume.pdf" download>CV</a></div></nav>
+
+<main>
+<section class="hero"><div class="wrap hero-grid">
+<div><div class="eyebrow">Audit · Finance · Investigation · AI</div><h1>CA Saptak Roy</h1><p class="lead"><strong>Chartered Accountant & CMA</strong> with experience across Audit & Assurance, Forensic Investigation and Internal Audit, with hands-on exposure to AI-enabled financial workflows.</p><div class="actions"><a class="btn primary" href="#dna">Explore profile</a><a class="btn" href="CA-Saptak-Roy-Resume.pdf" download>Download CV</a><a class="btn" href="https://www.linkedin.com/in/ca-saptak-roy" target="_blank" rel="noopener">LinkedIn ↗</a></div></div>
+<aside class="profile"><div><div class="mini">Recruiter snapshot</div><h2>Assurance + Forensics + Controls + AI</h2><p>A cross-functional profile built through PwC SDC, Grant Thornton Bharat and Vivek & Co, supported by CA/CMA qualifications and documented recognition.</p></div><div class="profileline"><span class="pill">CA</span><span class="pill">CMA</span><span class="pill">Audit</span><span class="pill">Forensics</span><span class="pill">AI</span></div></aside>
+</div></section>
+
+<div class="wrap"><div class="kpis"><div class="kpi"><b>CA</b><span>Chartered Accountant</span></div><div class="kpi"><b>CMA</b><span>Cost & Management Accountant</span></div><div class="kpi"><b>20 days</b><span>Reduction stated in CV</span></div><div class="kpi"><b>2026</b><span>PwC North Star Award</span></div><div class="kpi"><b>AI</b><span>Workflow & tools focus</span></div></div></div>
+
+<section id="dna"><div class="wrap"><div class="head"><h2>Professional DNA</h2><p>The simplest way to understand the profile: four connected capabilities developed across the roles and assignments documented in the CV.</p></div>
+<div class="dna">
+<div class="dna-card"><div class="dna-no">01</div><h3>Assurance</h3><p>Audit analytics, FSLI testing, substantive procedures, EGA preparation and execution.</p></div>
+<div class="dna-card"><div class="dna-no">02</div><h3>Forensics</h3><p>Money trails, fund-diversion investigation, transaction review, evidence and email analysis.</p></div>
+<div class="dna-card"><div class="dna-no">03</div><h3>Controls</h3><p>IFC, walkthroughs, inventory, fixed assets and business-cycle control work.</p></div>
+<div class="dna-card"><div class="dna-no">04</div><h3>AI</h3><p>AI-enabled process improvement, workflow agents and hands-on use of a broad AI toolkit.</p></div>
+</div></div></section>
+
+<section id="experience"><div class="wrap"><div class="head"><h2>Career journey</h2><p>From forensic investigation and audit foundations to current assurance work and AI-enabled process improvement.</p></div>
+<div class="timeline">
+<article class="role"><div class="date">NOV 2025 — PRESENT</div><div><h3>PwC SDC</h3><div class="sub">Associate 2, Assurance · Kolkata</div><ul><li>Start-to-end audit execution, EGA preparation and review of audit analytics/testing across investment and asset management clients using Halo for Funds.</li><li>Executed HCC procedures including dividend income, interest income, open purchases/sales, cash cut-off and investigation procedures.</li><li>Performed Cash, PPE, Salaries/Payroll and Benefits FSLI testing.</li><li>Contributed to process improvement through training materials, process guides, HCC application guidance and AI workflow agents.</li></ul></div></article>
+<article class="role"><div class="date">SEP 2018 — AUG 2021</div><div><h3>Grant Thornton Bharat LLP</h3><div class="sub">CA Articleship · Forensic & Investigation Services · Gurugram</div><ul><li>Worked across forensic audit, fact finding, transaction review, claims & disputes, investigation, statutory audit and internal audit.</li><li>Investigated fund diversion and tracked financial flow through money-trail analysis.</li><li>Performed keyword/pattern-based email reviews and journal-entry testing.</li><li>Performed IFC walkthroughs/testing and procedures across major balance-sheet and P&L areas.</li></ul></div></article>
+<article class="role"><div class="date">OCT 2022 — JAN 2024</div><div><h3>Vivek & Co</h3><div class="sub">CMA Intern · Bokaro Steel City</div><ul><li>Audited inventory processes and reconciled discrepancies for management action plans.</li><li>Prepared ITRs including tax planning, advisory and computation.</li><li>Implemented barcodes/QR codes for fixed assets.</li><li>Reviewed bulk-material controls using drones; CV states this reduced the monthly inventory-count period by 20 days.</li></ul></div></article>
+</div></div></section>
+
+<section id="impact"><div class="wrap"><div class="head"><h2>Evidence of impact</h2><p>Selected outcomes and recognition explicitly supported by the CV.</p></div>
+<div class="grid3">
+<div class="card"><div class="label">Operational</div><div class="big">20 days</div><h3>Inventory-count period</h3><p>The CV states that drone-assisted bulk-material control review helped reduce the client's monthly inventory-count period by 20 days.</p></div>
+<div class="card"><div class="label">Recognition</div><div class="big">North Star</div><h3>PwC · February 2026</h3><p>Awarded for High Impact during Busy Season at PwC.</p></div>
+<div class="card"><div class="label">AI × Finance</div><div class="big">Panel</div><h3>DDL Labs</h3><p>Invited as a panellist for an event on Artificial Intelligence and Financial Excellence.</p></div>
+</div></div></section>
+
+<section><div class="wrap"><div class="head"><h2>Three stories worth opening</h2><p>Resume bullets become concise case narratives. No unsupported metrics are added.</p></div>
+<details open><summary><span class="case"><span class="case-no">01</span><span>Drone-enabled bulk-material control review</span></span></summary><p><strong>Context:</strong> Controls around bulk material (coal). <strong>Action:</strong> Drone-assisted review alongside physical inspection and process assessment. <strong>Documented outcome:</strong> The CV states a 20-day reduction in the monthly inventory-count period.</p></details>
+<details><summary><span class="case"><span class="case-no">02</span><span>Forensic money-trail investigation</span></span></summary><p><strong>Context:</strong> Forensic and investigation assignments at Grant Thornton Bharat. <strong>Action:</strong> Investigated fund diversion and tracked financial flow through money-trail analysis, supported by transaction, ledger and evidence review.</p></details>
+<details><summary><span class="case"><span class="case-no">03</span><span>AI-enabled audit process improvement</span></span></summary><p><strong>Context:</strong> Current assurance role at PwC SDC. <strong>Action:</strong> Contributed to training materials, process guides, HCC application guidance and creating agents for seamless workflow using AI. The CV does not quantify an efficiency gain, so none is claimed here.</p></details>
+</div></section>
+
+<section id="expertise"><div class="wrap"><div class="head"><h2>Expertise explorer</h2><p>Filter the portfolio by professional theme.</p></div>
+<div class="filters"><button class="active" onclick="filterCards('all',this)">All</button><button onclick="filterCards('audit',this)">Audit</button><button onclick="filterCards('forensic',this)">Forensic</button><button onclick="filterCards('controls',this)">Controls</button><button onclick="filterCards('ai',this)">AI</button></div>
+<div class="grid3" id="expertiseCards">
+<div class="card exp audit"><div class="label">Audit</div><h3>Audit & Assurance</h3><p>FSLI testing, substantive procedures, analytical review, audit analytics, EGA preparation, lead schedules and disclosure review.</p></div>
+<div class="card exp forensic"><div class="label">Forensic</div><h3>Investigation</h3><p>Money-trail analysis, fund-diversion investigation, transaction review, email review, journal-entry testing and fact finding.</p></div>
+<div class="card exp controls"><div class="label">Controls</div><h3>Internal Audit & IFC</h3><p>IFC testing, walkthroughs, inventory controls, fixed assets, business-cycle documentation and management-oriented observations.</p></div>
+<div class="card exp ai"><div class="label">AI</div><h3>AI-enabled workflows</h3><p>Process-improvement initiatives involving AI agents and a broad hands-on AI-tool ecosystem listed in the CV.</p></div>
+<div class="card exp audit"><div class="label">Audit</div><h3>Financial statement areas</h3><p>Cash, PPE, payroll/benefits, investments, inventory, receivables/payables, revenue and operating expenses.</p></div>
+<div class="card exp forensic"><div class="label">Evidence</div><h3>Analytics & scrutiny</h3><p>Financial-data snapshots, trend/discrepancy analysis, keyword/pattern-based review and detailed transaction scrutiny.</p></div>
+</div></div></section>
+
+<section><div class="wrap"><div class="head"><h2>Qualification journey</h2><p>Professional and academic milestones from the CV.</p></div>
+<div class="grid3"><div class="card"><div class="label">May 2025</div><h3>CA Final — Group I</h3><p>53%; exemption in AFM.</p></div><div class="card"><div class="label">May 2024</div><h3>CA Final — Group II</h3><p>57%; exemption in Economic Laws.</p></div><div class="card"><div class="label">June 2025</div><h3>CMA Final — Group IV</h3><p>53%.</p></div><div class="card"><div class="label">June 2022</div><h3>CMA Intermediate</h3><p>Both Groups; 52%; Merit Certificate.</p></div><div class="card"><div class="label">2018</div><h3>B.Com — IGNOU</h3><p>67%; First Division.</p></div><div class="card"><div class="label">2015 / 2013</div><h3>CBSE</h3><p>Class XII: 91%; Class X: 9.8 CGPA.</p></div></div></div></section>
+
+<section id="recognition"><div class="wrap"><div class="head"><h2>Recognition & interests</h2><p>Documented professional recognition, competitive achievements and selected personal interests.</p></div>
+<div class="grid3"><div class="card"><h3>PwC</h3><p>North Star Award for High Impact during Busy Season — February 2026.</p></div><div class="card"><h3>Grant Thornton Bharat</h3><p>Spot Award and PAL Award.</p></div><div class="card"><h3>Competitive achievements</h3><p>National Rank Holder in ICAI Commerce Wizard; International Rank Holder in BSE Finance Olympiad.</p></div><div class="card"><h3>Academic & extracurricular</h3><p>Merit certificates in academics, chess, quiz and exhibitions; Topper in Sai Mathematics Olympiad; Certificate of Merit by ICMAI.</p></div><div class="card"><h3>AI & Finance</h3><p>Invited as a panellist by DDL Labs for an event on Artificial Intelligence and Financial Excellence.</p></div><div class="card"><h3>Activities</h3><p>Mentoring students, explorer, current affairs and AI enthusiast.</p></div></div></div></section>
+
+<section><div class="wrap"><div class="head"><h2>Technology & AI toolkit</h2><p>Tools explicitly listed in the CV. No proficiency scores are implied.</p></div><div class="tags"><span class="tag">MS Excel</span><span class="tag">Intella</span><span class="tag">Relativity</span><span class="tag">IDEA</span><span class="tag">Voyager</span><span class="tag">Aura</span><span class="tag">Connect</span><span class="tag">Halo</span><span class="tag">ChatGPT</span><span class="tag">Copilot</span><span class="tag">Claude</span><span class="tag">Gemini</span><span class="tag">Grok</span><span class="tag">Perplexity</span><span class="tag">Apollo.io</span><span class="tag">OpenRouter</span><span class="tag">Getmulti</span><span class="tag">Wispr Flow</span><span class="tag">Supergrow</span><span class="tag">Numerous AI</span><span class="tag">Gamma AI</span><span class="tag">Chronicle HQ</span><span class="tag">Fireflies</span><span class="tag">Happy Scribe</span><span class="tag">NotebookLM</span><span class="tag">Lovable</span></div></div></section>
+
+<section id="contact"><div class="wrap"><div class="cta"><div class="eyebrow" style="color:#b9ded7">Contact</div><h2>Let's connect.</h2><p>For formal applications, download the CV. For a broader view of experience, impact and interests, explore this portfolio.</p><div class="actions"><a class="btn" href="CA-Saptak-Roy-Resume.pdf" download>Download CV</a><a class="btn" href="mailto:ca.saptak.roy@gmail.com">ca.saptak.roy@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/ca-saptak-roy" target="_blank" rel="noopener">LinkedIn ↗</a></div></div></div></section>
+</main>
+<footer><div class="wrap">© CA Saptak Roy · Interactive professional portfolio<div class="fine">This portfolio is a presentation layer for the formal CV; professional claims and quantitative outcomes should be kept aligned with the current CV.</div></div></footer>
+<button id="toTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
+<script>
+function filterCards(type,btn){document.querySelectorAll('.filters button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');document.querySelectorAll('.exp').forEach(c=>c.style.display=(type==='all'||c.classList.contains(type))?'block':'none')}
+window.addEventListener('scroll',()=>{document.getElementById('toTop').style.display=scrollY>600?'block':'none'})
+</script>
+</body>
+</html>
